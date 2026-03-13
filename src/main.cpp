@@ -10,8 +10,8 @@
 #include <WiFi.h>
 
 // --- NETWORK CONFIGURATION ---
-const char* WIFI_SSID     = "TURKNET_AC0C3";
-const char* WIFI_PASSWORD = "zcYzS6DA";
+const char* WIFI_SSID     = "WIFI";
+const char* WIFI_PASSWORD = "PASSWORD";
 const int   SERVER_PORT   = 25565;
 
 WiFiServer mcServer(SERVER_PORT);
